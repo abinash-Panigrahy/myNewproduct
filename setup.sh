@@ -5,9 +5,7 @@ npm create vite@latest client --template react
 cd client
 
 # # Initialize project
-# npm install
-# npm install -D tailwindcss postcss autoprefixer
-# npx tailwindcss init -p
+npm install tailwindcss @tailwindcss/vite
 
 # Install dependencies
 npm install react-router-dom axios react-icons
